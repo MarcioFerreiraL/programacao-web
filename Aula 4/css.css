@@ -1,0 +1,56 @@
+.navbar {
+  display: flex; /* Ativa o flexbox */
+  flex-direction: row; /* Coloca lado a lado */
+  justify-content: space-between; /* Joga o logo pra esquerda e o menu pra direita */
+  align-items: center; /* Centraliza tudo verticalmente na barra */
+  padding: 10px 20px;
+  background-color: #333;
+  color: white;
+
+  a {
+    color: white;
+  }
+}
+
+.menu {
+  display: flex; /* Sim, um filho pode ser um contêiner flex também! */
+  gap: 15px; /* Espaço entre os links */
+}
+
+.pratica {
+    height: 400px;
+    display: flex;
+    gap: 80px;
+    background-color: gray;
+    justify-content: center;
+    flex-direction: row;
+    align-items: center;
+
+    .red {
+        width: 200px;
+        height: 200px;
+        background-color: red;
+    }
+
+    .yellow {
+        width: 200px;
+        height: 200px;
+        background-color: yellow; 
+    }
+
+    .blue {
+        width: 200px;
+        height: 200px;
+        background-color: blue; 
+    }
+
+}
+
+.container-grid {
+  display: grid; /* Ativa o Grid */
+  /* Cria 3 colunas: a 1ª de 200px, e as outras dividem o resto do espaço */
+  grid-template-columns: 200px 1fr 1fr; 
+  /* Cria 2 linhas de 150px de altura */
+  grid-template-rows: 150px 150px;
+  gap: 20px; /* Espaço entre as células */
+}
