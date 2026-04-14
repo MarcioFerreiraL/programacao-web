@@ -1,0 +1,27 @@
+
+* { 
+    margin: 0; 
+    padding: 0; 
+    box-sizing: border-box; 
+    font-family: Arial, sans-serif; 
+}
+
+nav {
+    background-color: #333;
+    padding: 15px 50px;
+}
+
+ul {
+    list-style: none; 
+    display: flex;    
+    gap: 30px;       
+}
+
+a {
+    text-decoration: none; /* Tira o sublinhado padrão dos links */
+    color: white;
+    font-size: 18px;
+    font-weight: bold;
+    padding: 10px 15px;
+    border-radius: 5px;
+}

@@ -1,0 +1,71 @@
+main {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    
+}
+
+.quadrado1 {
+    width: 200px;
+    height: 200px;
+    margin: 20px;
+    background-color: aqua;
+}
+
+.quadrado2 {
+    width: 200px;
+    height: 200px;
+    margin: 20px;
+    background-color: pink;
+}
+
+.quadrado3 {
+    width: 200px;
+    height: 200px;
+    margin: 20px;
+    background-color: black;
+}
+
+.quadrado4 {
+    width: 200px;
+    height: 200px;
+    margin: 20px;
+    background-color: blue;
+}
+
+.quadrado5 {
+    width: 200px;
+    height: 200px;
+    margin: 20px;
+    background-color: red;
+}
+
+.quadrado6 {
+    width: 200px;
+    height: 200px;
+    margin: 20px;
+    background-color: blueviolet
+}
+
+.quadrado7 {
+    width: 200px;
+    height: 200px;
+    margin: 20px;
+    background-color: brown;
+}
+
+.quadrado8 {
+    width: 200px;
+    height: 200px;
+    margin: 20px;
+    background-color: darkorange;
+}
+
+.quadrado9 {
+    width: 200px;
+    height: 200px;
+    margin: 20px;
+    background-color: yellow;
+}

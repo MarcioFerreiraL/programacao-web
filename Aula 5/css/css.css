@@ -1,0 +1,41 @@
+/* Estilos globais */
+body {
+    font-family: 'Google Sans', sans-serif;
+    padding: 40px;
+    background-color: #f4f4f9;
+    text-align: center;
+}
+
+/* Estilo dos campos de entrada e botões */
+input, button {
+    padding: 12px;
+    font-size: 16px;
+    border-radius: 8px;
+    border: 1px solid #ccc;
+    outline: none;
+}
+
+input {
+    width: 200px;
+}
+
+button {
+    background-color: #28a745;
+    color: white;
+    border: none;
+    cursor: pointer;
+    transition: background 0.3s;
+}
+
+button:hover {
+    background-color: #218838;
+}
+
+/* Estilo do resultado */
+#resultado {
+    color: #007bff;
+    font-weight: bold;
+    font-size: 2rem;
+    display: block;
+    margin-top: 10px;
+}
