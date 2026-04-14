@@ -1,4 +1,4 @@
-# Meus desafios da mnitoria da cadeira de programação web
+# Meus desafios da monitoria da cadeira de programação web
 
 ## Desafios da monitoria
 
